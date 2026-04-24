@@ -62,6 +62,21 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 15px;
+    table-layout: fixed;
+}
+
+.first-col {
+    background-color: #eef6ff;
+    width: 25%;
+}
+
+.second-col {
+    width: 50%;
+}
+
+.third-col {
+    background-color: #eef6ff;
+    width: 25%;
 }
 
 caption {
@@ -73,8 +88,9 @@ caption {
 th,
 td {
     border: 1px solid #999;
-    padding: 12px;
+    padding: 18px;
     text-align: left;
+    vertical-align: middle;
 }
 
 thead {
@@ -88,15 +104,16 @@ tfoot {
     text-align: center;
 }
 
-.first-col,
-.third-col {
-    background-color: #eef6ff;
-}
-
-img {
-    width: 100px;
-    height: auto;
-    display: block;
+.img-placeholder {
+    width: 120px;
+    height: 80px;
+    background-color: #dcdcdc;
+    border: 1px solid #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9em;
+    margin: auto;
 }
 
 /* Footer */
