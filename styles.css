@@ -14,26 +14,22 @@ header {
 }
 
 header h1 {
+    margin: 0;
     font-size: 2.2em;
     font-weight: bold;
-    margin: 0;
 }
 
-/* Navigation Menu */
+/* Navigation */
 nav ul {
     list-style: none;
-    padding: 0;
     margin: 10px 0 0 0;
+    padding: 0;
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
+nav a {
     text-decoration: none;
     color: white;
     padding: 8px 12px;
@@ -41,7 +37,7 @@ nav ul li a {
     transition: background-color 0.3s ease;
 }
 
-nav ul li a:hover {
+nav a:hover {
     background-color: #1abc9c;
     color: black;
 }
@@ -52,16 +48,16 @@ section {
     padding: 20px;
     background-color: white;
     border: 1px solid #ddd;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
 
 section:hover {
-    transform: scale(2.3);
+    transform: scale(1.02);
 }
 
-/* Table Styling */
+/* Table */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -74,7 +70,8 @@ caption {
     margin-bottom: 10px;
 }
 
-th, td {
+th,
+td {
     border: 1px solid #999;
     padding: 12px;
     text-align: left;
@@ -86,9 +83,20 @@ thead {
 }
 
 tfoot {
-    background-color: #f0f0f0;
+    background-color: #f2f2f2;
     font-weight: bold;
     text-align: center;
+}
+
+.first-col,
+.third-col {
+    background-color: #eef6ff;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    display: block;
 }
 
 /* Footer */
