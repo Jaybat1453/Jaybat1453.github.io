@@ -1,3 +1,3 @@
 # Jaybat1453.github.io
 ## Screenshot
-Website page.png
+![Screenshot](Website page.png)
